@@ -1,0 +1,2 @@
+Patch the system due to:
+1. fixing of JS/SS feature because Position and Department did not change after changing the EN.

@@ -1,0 +1,22 @@
+SELECT 
+`emp_info`.`LastName`,
+`emp_info`.`FirstName`,
+`sd`.`pkid`,
+`sd`.`created_by`,
+`sd`.`fkstraight_main`,
+`sd`.`empno`,
+`sd`.`date_from`,
+`sd`.`time_from`,
+`sd`.`date_to`,
+`sd`.`time_to`,
+`sd`.`hours_consumed`,
+`sd`.`system_comment`,
+`sd`.`remarks`,
+`sd`.`username`,
+`sd`.`logdel`
+FROM 
+`db_otks`.`tkstraight_details` `sd` 
+INNER JOIN 
+`db_hris`.`tbl_EmployeeInfo` `emp_info`
+ON
+`sd`.`empno` = `emp_info`.`EmpNo`

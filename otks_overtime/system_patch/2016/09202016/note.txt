@@ -1,0 +1,2 @@
+correction: correct the computation of rendered OT for non-regular OT type.
+example: employee files 3.5 but system says it only renders 3 hours and 30mins

@@ -1,0 +1,1 @@
+add the condition of duplicate log in wherein employee swipe his/her ID with 0 minute and 0 second difference

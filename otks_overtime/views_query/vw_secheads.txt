@@ -1,0 +1,7 @@
+SELECT a.pkid, a.FirstName as firstname,a.LastName as lastname,CONCAT( a.FirstName,  ' ', a.LastName ) AS emp_name, s.Section, u.username, a.EmpNo, u.email_add
+FROM tbl_EmployeeInfo a
+INNER JOIN tbl_Section s ON a.fkSection = s.pkid
+INNER JOIN db_acl.tbl_useraccnt u ON u.fkemployee = a.pkid
+WHERE a.SalaryType =  '3'
+AND a.EmpStatus =  '1'
+ORDER BY EmpNo

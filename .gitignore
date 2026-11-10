@@ -1,0 +1,75 @@
+# ---------- Office documents ----------
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+*.csv
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.odt
+*.ods
+*.odp
+
+# ---------- PDF ----------
+*.pdf
+
+# ---------- Archives / backups ----------
+*.rar
+*.zip
+*.7z
+*.tar
+*.gz
+*.tgz
+*.bz2
+*.bak
+*.backup
+*.old
+*.sql
+*.dump
+
+# ---------- Media (large) ----------
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.mp3
+*.wav
+*.psd
+*.ai
+*.iso
+
+# ---------- Uploaded / generated content ----------
+uploads/
+upload/
+exports/
+export/
+temp/
+tmp/
+cache/
+logs/
+*.log
+
+# ---------- Project-specific ----------
+otks documents/
+*_test/
+*_edited/
+
+# ---------- Dependencies ----------
+node_modules/
+vendor/
+
+# ---------- Config / secrets ----------
+.env
+*.env
+config.local.php
+
+# ---------- OS / editor ----------
+Thumbs.db
+desktop.ini
+.DS_Store
+.idea/
+.vscode/
+*.swp
+~$*

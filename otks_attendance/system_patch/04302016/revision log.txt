@@ -1,0 +1,4 @@
+1. add new field in tklogs table -> fkid_tkdata
+	adjust the handler.php. get the pkid of tkdataraw then insert to tklogs
+
+2. Create a feature that mark red on shown attendance when forgot to time in or out

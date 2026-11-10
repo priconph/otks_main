@@ -1,0 +1,1 @@
+Include Sir Katsunori Takahashi's email at "to" when request was came from design section
